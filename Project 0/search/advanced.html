@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="links">
+                <a href="index.html">Google search</a>
+            </div>
+            <div style="margin-left: 1%; margin-right: 99%; display: inline;">
+                <img src="binoculars.jpg" alt="binoculars" name="binoculars" height="80px">
+                <div id="header">
+                    <span style="font-size: 25px;">CS50</span> <span style="font-family:monospace;font-weight: bold;font-size:30px"><span style="color: blue">F</span><span style="color: red">i</span><span style="color: yellow">n</span><span style="color: blue">d</span><span style="color: green">e</span><span style="color: red">r</span></span>
+                </div>
+            </div>
+            
+            <div>
+                <form action="https://www.google.com/search">
+                    <div name="input text" style="margin-bottom: 30px"> Find pages with:
+                        <div class="grid">
+                            <div class="grid-item">All these words: </div> 
+                            <div class="grid-item"><input type="text" name="as_q" placeholder="Type to search" class="advanced_search_text_input"></div> 
+                            <div class="grid-item">This exact word or phrase: </div> 
+                            <div class="grid-item"><input type="text" name="as_epq" placeholder="Type to search" class="advanced_search_text_input"></div> 
+                            <div class="grid-item">Any of these words: </div> 
+                            <div class="grid-item"><input type="text" name="as_oq" placeholder="Type to search" class="advanced_search_text_input"></div> 
+                            <div class="grid-item">None these words: </div> 
+                            <div class="grid-item"><input type="text" name="as_eq" placeholder="Type to search" class="advanced_search_text_input"></div>
+                        </div>
+                    </div> 
+    
+                    <div name="btn"> 
+                        <input type="submit" value="Advanced search" class="btn">
+                    </div>
+    
+                </form>
+            
+            <div id="footer">
+                <h6>Powered by Google</h6>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
